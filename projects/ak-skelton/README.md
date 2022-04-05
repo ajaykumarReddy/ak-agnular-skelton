@@ -12,6 +12,7 @@ npm i ak-skelton
 
 add `AkSkeltonModule` to your angular modules like `app.module.ts`.
 
+Demo Application [Demo](https://stackblitz.com/github/ajaykumarReddy/ak-agnular-skelton).
 Examples Code for usage.
 
 -- Whenever isLoading is true then it will starts display the skelton placeholder to indicate loader progress.

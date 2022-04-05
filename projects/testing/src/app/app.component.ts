@@ -16,6 +16,6 @@ export class AppComponent {
     this.isLoading = true;
     setTimeout(() => {
         this.isLoading = false;
-    }, 5000);
+    }, 50000);
   }
 }
