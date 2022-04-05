@@ -1,0 +1,36 @@
+<div class="flex">
+  <p>Test 1:</p>
+  <p *skeleton="isLoading; 
+                height: '50px'; 
+                width: '500px'">
+  </p>
+</div>
+
+<section class="flex">
+  <p>Test Dynamically create:</p>
+  <ng-container *skeleton="isLoading; 
+                           repeat: 5; 
+                           className: 'mb-2'; 
+                           height: '100px';
+                           width: '500px'">
+
+                           
+    <div *ngFor="let num of [1,2, 3]">
+      {{ num }}
+    </div>
+
+  </ng-container>
+</section>
+
+<p>Test Randon width :</p>
+<ng-container *skeleton="isLoading; 
+                         repeat: 5; 
+                         className: 'mb-2'; 
+                         height: '30px'; 
+                         width: 'rand'">
+
+  <div *ngFor="let num of [1,2, 3, 4, 5]">
+    {{ num }}
+  </div>
+
+</ng-container>
