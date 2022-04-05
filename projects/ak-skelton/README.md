@@ -12,7 +12,7 @@ npm i ak-skelton
 
 add `AkSkeltonModule` to your angular modules like `app.module.ts`.
 
- [Preview](../testing/src/assets/skelton.png)
+ [Preview](https://github.com/ajaykumarReddy/ak-agnular-skelton/blob/main/projects/testing/src/assets/skelton.png)
 
 Demo Application [Demo](https://stackblitz.com/github/ajaykumarReddy/ak-agnular-skelton).
 Examples Code for usage.
